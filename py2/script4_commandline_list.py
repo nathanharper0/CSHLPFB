@@ -10,17 +10,24 @@ for i in range(3):
 	if threenumbers[i]>=0:
 		if threenumbers[i]<50:
 			if threenumbers[i]%2==0 and threenumbers[i]!=0:
-				print("even and smaller than 50")
+				print(threenumbers[i])
+				print("the number is even and smaller than 50")
 			elif threenumbers[i]==0:
+				print(threenumbers[i])
 				print("the number is zero")
 			else:
-				print("it is smaller than 50 but not even")
+				print(threenumbers[i])
+				print("the number is smaller than 50 but not even")
 		elif threenumbers[i]>50:
 			if threenumbers[i]%3==0:
-				print("it is larger than 50 and divisible by 3")
+				print(threenumbers[i])
+				print("the number is larger than 50 and divisible by 3")
 			else:
-				print("it is larger than 50 but not divisible by 3")
+				print(threenumbers[i])
+				print("the number larger than 50 but not divisible by 3")
 		else:
+			print(threenumbers[i])
 			print("the number is 50")
 	else:
+		print(threenumbers[i])
 		print("the number is negative")

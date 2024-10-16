@@ -1,0 +1,4 @@
+1. strings, tuples, lists
+2. 842 nt
+4. 167 A, 187 T, 270 C, 218 G
+5. bird.upper()

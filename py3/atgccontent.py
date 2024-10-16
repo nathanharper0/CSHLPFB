@@ -6,5 +6,6 @@ gccontent=1-atcontent
 print(f'the AT content is {atcontent:.2f}')
 print(f'the GC content is {gccontent:.2f}')
 
-#the GC content is 0.
-
+#extractingandprinting nucleotide at positions100-200
+subsequence=sequence[99:199]
+print(f'position 100 to 200: {subsequence}')

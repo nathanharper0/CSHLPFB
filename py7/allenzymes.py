@@ -41,7 +41,7 @@ with open(inputfastafile,'r') as inputfasta:
         else:
               sequencefrags.append(line)
     sequence=''.join(sequencefrags)
-    print(sequence)
+    #print(sequence)
     if enzymeDict[inputenzname]: #if enzyme is in dictionary
         enzymetemp=str(enzymeDict[inputenzname])
         enzymetargetnocarot=enzymetemp.replace('^','')
@@ -51,14 +51,14 @@ with open(inputfastafile,'r') as inputfasta:
             translatedtarget.append(baseDict[i])
             #translatedtarget[i]=baseDict[enzymetargetnocarot[]]
         translatedtargetstr=']['.join(translatedtarget)
-        print(translatedtargetstr)
+        #print(translatedtargetstr)
         translatedtargetstr2='['+translatedtargetstr+']'
         #print(enzymetargetnocarot)
-        print(translatedtargetstr2)
+        #print(translatedtargetstr2)
         if re.search(translatedtargetstr2,sequence): #if there is a cut site in the fasta
             occurences=[]
             occurences=re.findall(translatedtargetstr2,sequence)
-            print(occurences)
+            #print(occurences)
             #in original enzymeDict, where is cut site?
             originalsite=str(enzymeDict[inputenzname])
             cutsiteindex=originalsite.index('^')
@@ -74,7 +74,7 @@ with open(inputfastafile,'r') as inputfasta:
                     print(f'No cut site in dictionary. Using start of motif')
                 site=''.join(sitelist)
                 occurencescut.append(site)
-            print(occurencescut)
+            #print(occurencescut)
         #putbackin original sequence
             for x in range(0,len(occurencescut)-1):
                 sequencecut=re.sub(translatedtargetstr2,occurencescut[x],sequence)
@@ -82,8 +82,9 @@ with open(inputfastafile,'r') as inputfasta:
             ###########
             fragments=sequencecut.split('^')
 #checking whether this new list (fragments) is correct
-            print(f'fragments:{fragments}')
-            print(f'fragments sorted:{sorted(fragments,key=len,reverse=True)}')
+            print(f'Number of fragments: {len(fragments)}')
+            print(f'Fragment sequences:{fragments}')
+            print(f'Fragments sequences sorted:{sorted(fragments,key=len,reverse=True)}')
 
 
 

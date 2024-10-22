@@ -37,6 +37,18 @@ class DNA_Sequence(object):
         elements.append(self.sequence+'\n')
         fasta=''.join(elements)
         return fasta
+    
+    def same(self,other):
+        same=0
+        if self.sequence == other.sequence:
+            if self.gene_name == other.gene_name:
+                if self.species_name == other.species_name:
+                    same=1
+        if same:
+            return True
+        if same == 0:
+            return False
+
 
 
 

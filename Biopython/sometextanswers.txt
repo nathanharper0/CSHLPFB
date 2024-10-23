@@ -1,0 +1,4 @@
+3. using SeqIO.parse i can tell that:
+572214 records
+and using tail and more/head i can see that it contains protein sequences in fasta format
+

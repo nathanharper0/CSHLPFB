@@ -1,1 +1,7 @@
 uniprot_sprot.fasta*
+D_melanogaster_genomic.fna*
+ecoli_0.25.contigs.fasta*
+GenomeAssembly/defaultrun//ecoli.seqStore/blobs.0003
+GenomeAssembly/defaultrun//unitigging/ecoli.ctgStore/partition.0001
+GenomeAssembly/manualruns//ecoli.seqStore/blobs.0003
+GenomeAssembly/pacbio.fastq

@@ -1,0 +1,20 @@
+_matrix_name
+_% identity
+_alignment length
+_evalue
+blast_rand5-200_v_qfo_BLOSUM62.txt	28.205	78	3.5
+blast_rand5-200_v_qfo_BLOSUM80.txt	28.000	75	5.9
+blast_rand5-200_v_qfo_PAM30.txt	44.444	27	6.0
+blast_rand5-200_v_qfo_PAM70.txt	43.333	30	9.1
+blast_rand5-800_v_qfo_BLOSUM62.txt	27.350	117	0.39
+blast_rand5-800_v_qfo_BLOSUM80.txt	27.350	117	0.50
+blast_rand5-800_v_qfo_PAM30.txt	63.158	19	7.3
+blast_rand5-800_v_qfo_PAM70.txt	63.158	19	4.9
+blast_randall-200_v_qfo_BLOSUM62.txt	26.562	64	4.3
+blast_randall-200_v_qfo_BLOSUM80.txt	29.825	57	3.7
+blast_randall-200_v_qfo_PAM30.txt	52.381	21	4.1
+blast_randall-200_v_qfo_PAM70.txt	30.769	39	4.2
+blast_randall-800_v_qfo_BLOSUM62.txt	29.907	107	8.5
+blast_randall-800_v_qfo_BLOSUM80.txt	30.682	88	3.8
+blast_randall-800_v_qfo_PAM30.txt	63.158	19	6.9
+blast_randall-800_v_qfo_PAM70.txt	33.333	51	7.3

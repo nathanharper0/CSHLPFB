@@ -1,0 +1,18 @@
+_matrix_name
+_% identity
+_alignment length
+_evalue
+ss_rand5-200_v_qfo_BL50.txt	34.02	121	1.2
+ss_rand5-200_v_qfo_BP62.txt	31.17	90	0.37
+ss_rand5-200_v_qfo_VT10.txt	100.00	9	0.21
+ss_rand5-200_v_qfo_VT160.txt	29.69	67	2.1
+ss_rand5-200_v_qfo_VT20.txt	100.00	9	1.1
+ss_rand5-200_v_qfo_VT40.txt	72.73	11	1.3
+ss_rand5-200_v_qfo_VT80.txt	66.67	50	1.8
+ss_rand5-800_v_qfo_BL50.txt	30.77	117	0.76
+ss_rand5-800_v_qfo_BP62.txt	30.48	116	0.035
+ss_rand5-800_v_qfo_VT10.txt	100.00	8	2.2
+ss_rand5-800_v_qfo_VT160.txt	29.00	108	1.3
+ss_rand5-800_v_qfo_VT20.txt	88.89	9	2.3
+ss_rand5-800_v_qfo_VT40.txt	83.33	28	3.2
+ss_rand5-800_v_qfo_VT80.txt	46.03	91	0.45

@@ -1,0 +1,61 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 34, subversion 1 (v5.34.1) built for darwin-thread-multi-2level
+
+Found java:
+   /usr/bin/java
+   java version "22.0.2" 2024-07-16
+
+Found canu:
+   /Users/pfb2024/PFB_problemsets/GenomeAssembly/canu-2.2/bin/canu
+   canu 2.2
+
+Running job 2 based on command line options.
+/Users/pfb2024/PFB_problemsets/GenomeAssembly/manualruns/correction/1-overlapper
+Opened seqStore '../../ecoli.seqStore' for 'raw' reads.
+Dumping raw reads from 8101 to 12528 (inclusive).
+
+Starting mhap precompute.
+
+Running with these settings:
+--filter-threshold = 1.0E-7
+--help = false
+--max-shift = 0.2
+--min-olap-length = 500
+--min-store-length = 0
+--no-rc = false
+--no-self = false
+--no-tf = false
+--num-hashes = 768
+--num-min-matches = 2
+--num-threads = 6
+--ordered-kmer-size = 12
+--ordered-sketch-size = 1536
+--repeat-idf-scale = 10.0
+--repeat-weight = 0.9
+--settings = 0
+--store-full-id = true
+--supress-noise = 0
+--threshold = 0.73
+--version = false
+-f = ../../0-mercounts/ecoli.ms16.ignore.gz
+-h = false
+-k = 16
+-p = ./000002.input.fasta
+-q = .
+-s = 
+
+Reading in filter file ../../0-mercounts/ecoli.ms16.ignore.gz.
+Read in values for repeat 0 and 0
+Warning, k-mer filter file has zero elements.
+Initializing
+Initialized
+Time (s) to read filter file: 0.037935743
+Read in k-mer filter for sizes: []
+Processing FASTA files for binary compression...
+Current # sequences loaded and processed from file: 5000...
+Processed 8856 sequences (fwd and rev).
+Read, hashed, and stored file ./000002.input.fasta to ./000002.input.dat.
+Time (s): 191.66409793000003
+Total time (s): 191.664227312

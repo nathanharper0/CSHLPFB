@@ -1,0 +1,64 @@
+
+ERROR RATES
+-----------
+                                                 --------threshold------
+11241                        fraction error      fraction        percent
+samples                              (1e-5)         error          error
+                 --------------------------      --------       --------
+command line (-eg)                           ->   2500.00        2.5000%
+command line (-ef)                           ->  -----.--      ---.----%
+command line (-eM)                           ->   2500.00        2.5000%
+mean + std.dev     109.53 +-  12 *   166.87  ->   2111.91        2.1119%
+median + mad        81.00 +-  12 *    81.00  ->   1522.09        1.5221%  (enabled)
+90th percentile                              ->    247.00        0.2470%
+
+BEST EDGE FILTERING
+-------------------
+At graph threshold 2.5000%, reads:
+  available to have edges:         1233
+  with at least one edge:          1110
+
+At max threshold 2.5000%, reads:  (not computed)
+  available to have edges:            0
+  with at least one edge:             0
+
+At tight threshold 1.5221%, reads with:
+  both edges below error threshold:      1100  (80.00% minReadsBest threshold = 888)
+  one  edge  above error threshold:        10
+  both edges above error threshold:         0
+  at least one edge:                     1110
+
+At loose threshold 2.1119%, reads with:
+  both edges below error threshold:      1105  (80.00% minReadsBest threshold = 888)
+  one  edge  above error threshold:         5
+  both edges above error threshold:         0
+  at least one edge:                     1110
+
+
+INITIAL EDGES
+-------- ----------------------------------------
+    8935 reads are contained
+     201 reads have no best edges (singleton)
+       0 reads have only one best edge (spur) 
+                0 are mutual best
+    1086 reads have two best edges 
+                2 have one mutual best edge
+             1084 have two mutual best edges
+
+
+FINAL EDGES
+-------- ----------------------------------------
+    8935 reads are contained
+     201 reads have no best edges (singleton)
+       0 reads have only one best edge (spur) 
+                0 are mutual best
+    1086 reads have two best edges 
+                2 have one mutual best edge
+             1084 have two mutual best edges
+
+
+EDGE FILTERING
+-------- ------------------------------------------
+       0 reads are ignored
+      98 reads have a gap in overlap coverage
+       0 reads have lopsided best edges

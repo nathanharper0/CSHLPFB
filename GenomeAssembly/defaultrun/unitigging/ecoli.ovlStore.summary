@@ -1,0 +1,16 @@
+category            reads     %          read length        feature size or coverage  analysis
+----------------  -------  -------  ----------------------  ------------------------  --------------------
+middle-missing          0    0.00        0.00 +- 0.00             0.00 +- 0.00       (bad trimming)
+middle-hump             0    0.00        0.00 +- 0.00             0.00 +- 0.00       (bad trimming)
+no-5-prime              0    0.00        0.00 +- 0.00             0.00 +- 0.00       (bad trimming)
+no-3-prime              2    0.02    12902.00 +- 7700.39         77.00 +- 9.90       (bad trimming)
+
+low-coverage            2    0.02     3037.00 +- 295.57           5.57 +- 0.50       (easy to assemble, potential for lower quality consensus)
+unique               9036   88.40     8340.63 +- 6133.26         18.77 +- 4.17       (easy to assemble, perfect, yay)
+repeat-cont            47    0.46     1955.91 +- 1117.28         57.44 +- 35.11      (potential for consensus errors, no impact on assembly)
+repeat-dove             0    0.00        0.00 +- 0.00             0.00 +- 0.00       (hard to assemble, likely won't assemble correctly or even at all)
+
+span-repeat           801    7.84    12769.37 +- 6745.22       2322.55 +- 2775.81    (read spans a large repeat, usually easy to assemble)
+uniq-repeat-cont      294    2.88     8335.85 +- 5190.47                             (should be uniquely placed, low potential for consensus errors, no impact on assembly)
+uniq-repeat-dove       36    0.35    19755.25 +- 4054.53                             (will end contigs, potential to misassemble)
+uniq-anchor             4    0.04     5243.75 +- 2268.18       2213.50 +- 2800.50    (repeat read, with unique section, probable bad read)

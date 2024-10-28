@@ -1,0 +1,37 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 34, subversion 1 (v5.34.1) built for darwin-thread-multi-2level
+
+Found java:
+   /usr/bin/java
+   java version "22.0.2" 2024-07-16
+
+Found canu:
+   /Users/pfb2024/PFB_problemsets/GenomeAssembly/canu-2.2/bin/canu
+   canu 2.2
+
+Running job 1 based on command line options.
+
+Attempting to increase maximum allowed processes and open files.
+  Changed max processes per user from 2784 to 2784 (max 4176).
+./scripts/2-sort.sh: line 78: [: unlimited: integer expression expected
+  Max open files limited to 1048575, no increase possible.
+
+
+Finding overlaps.
+  found     289316 overlaps in './ecoli.ovlStore.BUILDING/bucket0001/sliceSizes'.
+  found      57625 overlaps in './ecoli.ovlStore.BUILDING/bucket0002/sliceSizes'.
+
+Loading     346941 overlaps using 0.01 GB of allowed (-M) 1 GB memory.
+  loading     289316 overlaps from './ecoli.ovlStore.BUILDING/bucket0001/slice0001'.
+  loading      57625 overlaps from './ecoli.ovlStore.BUILDING/bucket0002/slice0001'.
+
+Sorting.
+
+Writing sorted overlaps.
+  created './ecoli.ovlStore.BUILDING/0001' with 346941 overlaps for reads 1 to 9932.
+
+Removing bucketized overlaps.
+
+Success!

@@ -1,0 +1,64 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 34, subversion 1 (v5.34.1) built for darwin-thread-multi-2level
+
+Found java:
+   /usr/bin/java
+   java version "22.0.2" 2024-07-16
+
+Found canu:
+   /Users/pfb2024/PFB_problemsets/GenomeAssembly/canu-2.2/bin/canu
+   canu 2.2
+
+Running job 1 based on command line options.
+Initializing.
+Opening seqStore '../../ecoli.seqStore'.
+Correcting reads 1 to 12528.
+  Allowing alignment errors in simple sequence repeats (-s not supplied).
+Reading 303189 corrections from './red.red'.
+Correcting 89040414 bases with 267225 indel adjustments.
+--Allocate 84 + 2 + 0 MB for bases, adjusts and reads.
+Corrected 88900141 bases with 23436 substitutions, 140273 deletions and 126952 insertions.
+Loading overlaps.
+Read_Olaps()--  Loading 377830 overlaps from '../ecoli.ovlStore' for reads 1 to 12528
+--Allocate 11 MB for overlaps.
+Read_Olaps()--  Loaded 377830 overlaps -- 189038 normal and 188792 innie.
+Sorting overlaps.
+Recomputing overlaps.
+--Allocate 8 MB for fseq and rseq.
+--Allocate 32 MB for fadj and radj.
+--Allocate 16 MB for pedWorkArea_t.
+-- Allocate 0 MB for Edit_Array pointers.
+Recomputing overlaps -         1 -         1 -     12528
+--Allocate 16 MB for edit array work space 0 (positions 0-4092)
+Recomputing overlaps -         1 -      1025 -     12528
+Recomputing overlaps -         1 -      2049 -     12528
+Recomputing overlaps -         1 -      3073 -     12528
+Recomputing overlaps -         1 -      4097 -     12528
+Recomputing overlaps -         1 -      5121 -     12528
+Recomputing overlaps -         1 -      6145 -     12528
+Recomputing overlaps -         1 -      7169 -     12528
+Recomputing overlaps -         1 -      8193 -     12528
+Recomputing overlaps -         1 -      9217 -     12528
+Recomputing overlaps -         1 -     10241 -     12528
+Recomputing overlaps -         1 -     11265 -     12528
+Recomputing overlaps -         1 -     12289 -     12528
+
+--  Release bases, adjusts and reads.
+Olaps Fwd 189038
+Olaps Rev 188792
+Total:  377830
+Failed: 332 (both)
+Failed: 357 (either)
+Failed: 357 (match to end)
+Failed: 332 (negative length)
+Changed 377473 overlaps.
+Better: 375995 overlaps.
+Worse:  8 overlaps.
+Same:   1470 overlaps.
+Sorting overlaps.
+Saving corrected error rates to file ./00001.oea.WORKING
+--Allocate 0 MB for output error rates.
+
+Bye.

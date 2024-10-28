@@ -1,0 +1,29 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 34, subversion 1 (v5.34.1) built for darwin-thread-multi-2level
+
+Found java:
+   /usr/bin/java
+   java version "22.0.2" 2024-07-16
+
+Found canu:
+   /Users/pfb2024/PFB_problemsets/GenomeAssembly/canu-2.2/bin/canu
+   canu 2.2
+
+
+Creating library 'ecoli.trimmedReads' for PacBio corrected-trimmed reads.
+
+               reads               bases
+---------- --------- ------ ------------ ------
+Loaded         10222 100.0%     88900934 100.0%  /Users/pfb2024/PFB_problemsets/GenomeAssembly/manualruns/ecoli.trimmedReads.fasta.gz
+
+
+All reads processed.
+
+               reads               bases
+---------- --------- ------ ------------ ------
+Loaded         10222 100.0%     88900934 100.0%
+
+
+Bye.

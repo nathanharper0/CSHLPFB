@@ -1,0 +1,54 @@
+
+Found 1 command tree.
+
+Counting 86 (estimated) million canonical 22-mers from 1 input file:
+    canu-seqStore: ../../ecoli.seqStore
+
+
+SIMPLE MODE
+-----------
+
+  Not possible.
+
+
+COMPLEX MODE
+------------
+
+prefix     # of   struct   kmers/    segs/      min     data    total
+  bits   prefix   memory   prefix   prefix   memory   memory   memory
+------  -------  -------  -------  -------  -------  -------  -------
+     1     2  P   473 kB    21 MM    29 kS  8192  B   233 MB   234 MB
+     2     4  P   469 kB    10 MM    14 kS    16 kB   228 MB   228 MB
+     3     8  P   471 kB  5564 kM  7132  S    32 kB   222 MB   223 MB
+     4    16  P   485 kB  2782 kM  3479  S    64 kB   217 MB   217 MB
+     5    32  P   525 kB  1391 kM  1696  S   128 kB   212 MB   212 MB
+     6    64  P   615 kB   695 kM   827  S   256 kB   206 MB   207 MB
+     7   128  P   807 kB   347 kM   403  S   512 kB   201 MB   202 MB
+     8   256  P  1200 kB   173 kM   196  S  1024 kB   196 MB   197 MB
+     9   512  P  2000 kB    86 kM    96  S  2048 kB   192 MB   193 MB
+    10  1024  P  3608 kB    43 kM    47  S  4096 kB   188 MB   191 MB  Best Value!
+    11  2048  P  6832 kB    21 kM    23  S  8192 kB   184 MB   190 MB
+    12  4096  P    12 MB    10 kM    11  S    16 MB   176 MB   188 MB
+    13  8192  P    25 MB  5565  M     6  S    32 MB   192 MB   217 MB
+    14    16 kP    50 MB  2783  M     3  S    64 MB   192 MB   242 MB
+    15    32 kP   101 MB  1392  M     2  S   128 MB   256 MB   357 MB
+    16    64 kP   202 MB   696  M     1  S   256 MB   256 MB   458 MB
+    17   128 kP   405 MB   348  M     1  S   512 MB   512 MB   917 MB
+    18   256 kP   810 MB   174  M     1  S  1024 MB  1024 MB  1834 MB
+    19   512 kP  1620 MB    87  M     1  S  2048 MB  2048 MB  3668 MB
+    20  1024 kP  3240 MB    44  M     1  S  4096 MB  4096 MB  7336 MB
+
+
+FINAL CONFIGURATION
+-------------------
+
+Estimated to require 375 MB memory out of 2048 MB allowed.
+Estimated to require 2 batches.
+
+Configured complex mode for 0.367 GB memory per batch, and up to 2 batches.
+
+Start counting with THREADED method.
+
+Cleaning up.
+
+Bye.

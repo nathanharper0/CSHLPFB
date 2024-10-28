@@ -1,0 +1,29 @@
+lenUnassembled ng10       19341 bp   lg10      23   sum     496313 bp
+lenUnassembled ng20       17219 bp   lg20      49   sum     975257 bp
+lenUnassembled ng30       15510 bp   lg30      78   sum    1447539 bp
+lenUnassembled ng40       13760 bp   lg40     111   sum    1929284 bp
+lenUnassembled ng50       12113 bp   lg50     148   sum    2403908 bp
+lenUnassembled ng60       10130 bp   lg60     192   sum    2885273 bp
+lenUnassembled ng70        8471 bp   lg70     243   sum    3361925 bp
+lenUnassembled ng80        7004 bp   lg80     306   sum    3843844 bp
+lenUnassembled ng90        5452 bp   lg90     384   sum    4324177 bp
+lenUnassembled ng100       4176 bp   lg100    485   sum    4802483 bp
+lenUnassembled ng110       3246 bp   lg110    616   sum    5280053 bp
+lenUnassembled ng120       2446 bp   lg120    789   sum    5760928 bp
+lenUnassembled ng130       1747 bp   lg130   1021   sum    6240550 bp
+lenUnassembled ng140       1015 bp   lg140   1378   sum    6720837 bp
+lenUnassembled sum    6726880 (genomeSize 4800000)
+lenUnassembled num       1384
+lenUnassembled ave       4860
+lenContig ng10     4635042 bp   lg10       1   sum    4635042 bp
+lenContig ng20     4635042 bp   lg20       1   sum    4635042 bp
+lenContig ng30     4635042 bp   lg30       1   sum    4635042 bp
+lenContig ng40     4635042 bp   lg40       1   sum    4635042 bp
+lenContig ng50     4635042 bp   lg50       1   sum    4635042 bp
+lenContig ng60     4635042 bp   lg60       1   sum    4635042 bp
+lenContig ng70     4635042 bp   lg70       1   sum    4635042 bp
+lenContig ng80     4635042 bp   lg80       1   sum    4635042 bp
+lenContig ng90     4635042 bp   lg90       1   sum    4635042 bp
+lenContig sum    4635042 (genomeSize 4800000)
+lenContig num          1
+lenContig ave    4635042

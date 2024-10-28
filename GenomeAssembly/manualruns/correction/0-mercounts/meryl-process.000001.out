@@ -1,0 +1,45 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 34, subversion 1 (v5.34.1) built for darwin-thread-multi-2level
+
+Found java:
+   /usr/bin/java
+   java version "22.0.2" 2024-07-16
+
+Found canu:
+   /Users/pfb2024/PFB_problemsets/GenomeAssembly/canu-2.2/bin/canu
+   canu 2.2
+
+Running job 1 based on command line options.
+
+Found 1 command tree.
+
+PROCESSING TREE #1 using 3 threads.
+  opGreaterThan
+    threshold=1
+    opUnionSum
+      ./ecoli.01.meryl
+    output to ecoli.ms16.WORKING
+
+Cleaning up.
+
+Bye.
+
+Found 1 command tree.
+
+Found 1 command tree.
+
+PROCESSING TREE #1 using 3 threads.
+  opAtLeast
+    threshold=120
+    opAtLeast
+      word-frequenct=0.000000
+      ./ecoli.ms16
+    print to ./ecoli.ms16.##.dump
+
+Cleaning up.
+
+Bye.
+
+Found 1 command tree.

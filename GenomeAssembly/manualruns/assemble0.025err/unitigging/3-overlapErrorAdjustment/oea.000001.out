@@ -1,0 +1,61 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 34, subversion 1 (v5.34.1) built for darwin-thread-multi-2level
+
+Found java:
+   /usr/bin/java
+   java version "22.0.2" 2024-07-16
+
+Found canu:
+   /Users/pfb2024/PFB_problemsets/GenomeAssembly/canu-2.2/bin/canu
+   canu 2.2
+
+Running job 1 based on command line options.
+Initializing.
+Opening seqStore '../../ecoli.seqStore'.
+Correcting reads 1 to 10222.
+  Allowing alignment errors in simple sequence repeats (-s not supplied).
+Reading 293698 corrections from './red.red'.
+Correcting 89035865 bases with 260844 indel adjustments.
+--Allocate 84 + 1 + 0 MB for bases, adjusts and reads.
+Corrected 88899730 bases with 22632 substitutions, 136135 deletions and 124709 insertions.
+Loading overlaps.
+Read_Olaps()--  Loading 356708 overlaps from '../ecoli.ovlStore' for reads 1 to 10222
+--Allocate 10 MB for overlaps.
+Read_Olaps()--  Loaded 356708 overlaps -- 178682 normal and 178026 innie.
+Sorting overlaps.
+Recomputing overlaps.
+--Allocate 8 MB for fseq and rseq.
+--Allocate 32 MB for fadj and radj.
+--Allocate 16 MB for pedWorkArea_t.
+-- Allocate 0 MB for Edit_Array pointers.
+Recomputing overlaps -         1 -         1 -     10222
+--Allocate 16 MB for edit array work space 0 (positions 0-4092)
+Recomputing overlaps -         1 -      1025 -     10222
+Recomputing overlaps -         1 -      2049 -     10222
+Recomputing overlaps -         1 -      3073 -     10222
+Recomputing overlaps -         1 -      4097 -     10222
+Recomputing overlaps -         1 -      5121 -     10222
+Recomputing overlaps -         1 -      6145 -     10222
+Recomputing overlaps -         1 -      7169 -     10222
+Recomputing overlaps -         1 -      8193 -     10222
+Recomputing overlaps -         1 -      9217 -     10222
+
+--  Release bases, adjusts and reads.
+Olaps Fwd 178682
+Olaps Rev 178026
+Total:  356708
+Failed: 157 (both)
+Failed: 524 (either)
+Failed: 524 (match to end)
+Failed: 157 (negative length)
+Changed 356184 overlaps.
+Better: 354750 overlaps.
+Worse:  16 overlaps.
+Same:   1418 overlaps.
+Sorting overlaps.
+Saving corrected error rates to file ./00001.oea.WORKING
+--Allocate 0 MB for output error rates.
+
+Bye.

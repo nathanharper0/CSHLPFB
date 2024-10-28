@@ -1,0 +1,82 @@
+
+== Finding Potential Orphans ==
+
+tig        1 length   4642389 nReads    1067/   8820 -   0 regions covering   0.00 uncovered     0/     0/    0 -- potential orphan
+tig        2 length     23492 nReads       3/     18 -   1 regions covering 100.00 uncovered     0/     0/    0 -- potential orphan
+             tig        1 length   4642389 nReads    8820       3 reads with overlaps
+
+== Found 1 Potential Orphans ==
+
+
+== Finding Read Placements for Potential Orphans ==
+
+
+== Found 3 placements for 3 reads. ==
+         1383 reads not placed: not in a tig
+         7781 reads not placed: contained
+        10203 reads not placed: not in an orhpan
+
+
+========================================
+Processing potential orphan 2 of length 23492 bp with 18 reads
+
+Find anchors for orphan 2:
+  First read   8783 - placed 1 time
+   Last read   8016 - placed 1 time
+     Internal reads - placed      1/1      dovetail reads
+                    - placed     15/15     contained reads
+
+  Intervals (first read):
+    tig        1   2160985-2184477   ->
+
+  Intervals (last read):
+    tig        1   2160980-2184472   ->
+
+Finding intervals for orphan 2 placed in tig 1.
+    2160985-2184472     100.0% of orphan length - first read at   2160985-2178958   last read at   2165979-2184472    SUCCESS!
+
+Found 1 target location
+
+Removing duplicate placements.
+
+Placing orphan 2 (length 23492) into tig 1 at position 2160985-2184472 (length 23487):
+    read    8783 at   2160985-2178958  
+    read    6158 at   2161521-2176712  
+    read    7537 at   2171596-2161772  
+    read    2886 at   2162155-2165203  
+    read    2894 at   2168520-2162921  
+    read    5988 at   2168153-2163276  
+    read     134 at   2164688-2167609  
+    read    7868 at   2165010-2181934  
+    read    9333 at   2172431-2165062  
+    read    8016 at   2184472-2165979  
+    read    5443 at   2178429-2167198  
+    read    2999 at   2182931-2167717  
+    read    5733 at   2181137-2167959  
+    read    8596 at   2168003-2172643  
+    read    6909 at   2179024-2168605  
+    read    3862 at   2168828-2172361  
+    read    2933 at   2168938-2180826  
+    read    1476 at   2174303-2176890  
+  out of 18 reads, found 18 reads placed, 2 terminal reads
+
+Result:
+  tig        2 of length    23492 with     18 reads - UNIQUELY PLACED ORPHAN
+
+
+== Finding Potential Bubbles ==
+
+tig        1 length   4642389 nReads    1070/   8838 -   0 regions covering   0.00 uncovered     0/     0/    0 -- potential orphan
+
+== Found 0 Potential Orphans ==
+
+
+== Finding Read Placements for Potential Orphans ==
+
+
+== Found 0 placements for 0 reads. ==
+         1383 reads not placed: not in a tig
+         7781 reads not placed: contained
+        10221 reads not placed: not in an orhpan
+
+
